@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>converter</title>
+	<style type="text/css">
+		body{
+			padding:0px;
+			margin:0px;
+			font-family:cursive;
+		}
+		.container{
+			color: black;
+			letter-spacing:3px;
+			margin-top: 30px;
+			margin-left: 50px;
+			width:500px;
+			height:300px;
+			
+	
+		
+		}
+		.row{
+			display: flex;
+		}
+		.container h2{
+			font-size: 30px;
+			margin-left: 100px;
+		}
+			
+		}
+		.textarea textarea{
+			background-color: pink;
+			color:black;
+			border: 1px solid red;
+			width:300px;
+			height:300px;
+		
+		}
+		textarea::placeholder{
+			font-size: 25px;
+			color: blue;
+			font-family: cursive;
+		
+		}
+		button{
+			font-size: 10px;
+			border:1px solid black;
+		    border-radius: 20px;
+		    letter-spacing: 3px;
+		    padding: 5px;
+		    cursor:pointer;
+		    background-color: blue;
+		    margin-top:5px;
+		    width:100px;
+		    outline: 0;
+		}
+		button img{
+			width:16px;
+			margin-right:10px;
+		}
+	
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>text to speech converter</h2>
+		<div class="textarea"
+		<textarea id="textToConvert"  placeholder="write anything here....." ></textarea>
+	</div>
+		<div class="row">
+		
+			<p class="error-para"></p>
+			<button id="convertBtn"><img src="/home/rguktongole/play.png" width=15 height=15> listen</button>
+		</div>
+	</div>
+	<script src="conver.js"></script>
+</body>
+</html>
