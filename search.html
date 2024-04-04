@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>serach engine</title>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+                font-family: times new roman;
+
+            }
+            body{
+                background-color:transparent;
+            }
+            .container-fluid{
+                width:100%;
+                height:auto;
+                padding:0px 0px 80px 0px
+            }
+            .container{
+                width:1200px;
+                height:auto;
+                margin:auto;
+            }
+            .container .search{
+                display:flex;
+                padding:30px;
+                justify-content: space-between;
+            }
+            .container .search h1{
+                letter-spacing: 3px;
+                border-bottom: 2px solid purple;
+                padding-bottom: 10px;
+            }
+            .container .search input{
+                width:60%;
+                padding:5px 20px;
+                letter-spacing: 3px;
+                border:1px solid purple;
+                font-size: 23px;
+            }
+            .container .search input::placeholder{
+                color: purple;
+            }
+            .container .product img{
+                width:100%;
+                heght:100px;
+                object-fit: cover;
+                border-radius:5px;
+            }
+            .container .product-list{
+                display:flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                text-align: left;
+            }
+            .container .product-list .product{
+                margin-top:30px;
+            }
+            .container .product-list .product h2{
+                padding-top:5px;
+                font-size: 20px;
+                letter-spacing: 3px;
+            }
+        .container .product-list .product h3{
+            padding-top:2px;
+            color:purple;
+            font-size:18px;
+            letter-spacing: 3px;
+        }
+
+         </style>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="search">
+                <i class="fa fa-search"></i>
+                <h1>all items</h1>
+                <input type="text" id="find" placeholder="search product...." onkeyup="search()">
+                </div>
+                <div class="product-list">
+                    <div class="product">
+                        <img src="/home/rguktongole/images/apg wireless earphone.jpeg" alt="">
+                        <h2>apg ear phone</h2>
+                        <h3>RS.200</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/blaupunkt Em10 .jpeg" alt="">
+                        <h2>blaupunkt em-10</h2>
+                        <h3>RS.250</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/buy oppo.png" alt="">
+                        <h2>oppo</h2>
+                        <h3>RS.300</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/vivo.jpeg"alt="">
+                        <h2>vivo</h2>
+                        <h3>RS.22R500</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/headset.jpeg" alt="">
+                        <h2>headset</h2>
+                        <h3>RS.600</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/nokia.jpeg" alt="">
+                        <h2>nokia</h2>
+                        <h3>RS.900</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/redmi note-10.jpeg" alt="">
+                        <h2>redmi note 10</h2>
+                        <h3>RS.25000</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/plain red t shirt.jpeg" alt="">
+                        <h2>tshirt</h2>
+                        <h3>RS.250</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/apg wireless earphone.jpeg" alt="">
+                        <h2>apg ear phone</h2>
+                        <h3>RS.200</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/redmi 10.jpeg" alt="">
+                        <h2>redmi</h2>
+                        <h3>RS.20000</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/oppo.jpeg" alt="">
+                        <h2>redmi note</h2>
+                        <h3>RS.22999</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/tshirt loose fit.jpeg" alt="">
+                        <h2>loose tshirt</h2>
+                        <h3>RS.299</h3>
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/exclusive fancy kurtas.jpeg"alt="">
+                        <h2>vivo</h2>
+                        <h3>RS.27000</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/badminton cock.jpeg"alt="">
+                        <h2>badminton</h2>
+                        <h3>RS.270</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/blue cotton kurti.jpg"alt="">
+                        <h2>blue cotton kurti</h2>
+                        <h3>RS.279</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/exclusive fancy kurtas.jpeg"alt="">
+                        <h2>exclusive fancy kurti</h2>
+                        <h3>RS.389</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/black jean.jpg"alt="">
+                        <h2>black jean</h2>
+                        <h3>RS.800</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/Untitled.jpeg"alt="">
+                        <h2>cotton kurti</h2>
+                        <h3>RS.400</h3>
+                        
+                    </div>
+                    <div class="product">
+                        <img src="/home/rguktongole/images/women cotton kurti.jpg"alt="">
+                        <h2>women cootn kurti</h2>
+                        <h3>RS.27000</h3>
+                        </div>
+                        <div class="product">
+                            <img src="/home/rguktongole/images/white patola lehanga.webp"alt="">
+                            <h2>patola lehanga</h2>
+                            <h3>RS.27000</h3>
+                        </div>
+                </div>
+            </div>
+        </div>
+            <script type="text/javascript">
+                function search(){
+                    let filter=document.getElementById("find").value.toUpperCase();
+                    let item=document.querySelectorAll('.product');
+                    let l=document.getElementsByTagName('h2');
+                    for(var i=0;i<=l.length;i++){
+                        let a=item[i].getElementsByTagName('h2')[0];
+                        let value=a.innerHTML || a.innerText ||a.textContent;
+                        if(value.toUpperCase().indexOf(filter) > -1){
+                            item[i].style.display="";
+                        }
+                        else{
+                            item[i].style.display="none";
+                        }
+                    }
+                }
+            </script>
+            
+
+         </body>
+</html>
